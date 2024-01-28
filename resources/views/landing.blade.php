@@ -29,7 +29,7 @@
     <link rel="stylesheet" href="{{ asset('/css/contactus.css') }}">
     <link rel="stylesheet" href="{{ asset('/css/footer.css') }}">
 
-    <link rel="icon" type="image/x-icon" href="{{ secure_asset('/asset/tiphonixlogo.png') }}">
+    <link rel="icon" type="image/x-icon" href="{{ asset('/asset/tiphonixlogo.png') }}">
 
 </head>
 
