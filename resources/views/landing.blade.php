@@ -20,7 +20,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
 
     <!-- Custom CSS -->
-    <link rel="stylesheet" href="{{ secure_asset('/css/style.css') }}">
+    <link rel="stylesheet" href="{{ secure_asset('https://tiphoenix-dswui0yab-yattish47s-projects.vercel.app/css/style.css') }}">
     <link rel="stylesheet" href="{{ secure_asset('/css/top-section.css') }}">
     <link rel="stylesheet" href="{{ secure_asset('/css/welcome.css') }}">
     <link rel="stylesheet" href="{{ secure_asset('/css/about.css') }}">
