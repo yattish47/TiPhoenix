@@ -20,14 +20,14 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
 
     <!-- Custom CSS -->
-    <link rel="stylesheet" href="{{ asset('/css/style.css') }}">
-    <link rel="stylesheet" href="{{ asset('/css/top-section.css') }}">
-    <link rel="stylesheet" href="{{ asset('/css/welcome.css') }}">
-    <link rel="stylesheet" href="{{ asset('/css/about.css') }}">
-    <link rel="stylesheet" href="{{ asset('/css/whyus.css') }}">
-    <link rel="stylesheet" href="{{ asset('/css/cars.css') }}">
-    <link rel="stylesheet" href="{{ asset('/css/contactus.css') }}">
-    <link rel="stylesheet" href="{{ asset('/css/footer.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/style.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/top-section.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/welcome.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/about.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/whyus.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/cars.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/contactus.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/footer.css') }}">
 
     <link rel="icon" type="image/x-icon" href="{{ asset('/asset/tiphonixlogo.png') }}">
 
