@@ -20,16 +20,16 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
 
     <!-- Custom CSS -->
-    <link rel="stylesheet" href="{{ asset('../css/style.css') }}">
-    <link rel="stylesheet" href="{{ asset('../css/top-section.css') }}">
-    <link rel="stylesheet" href="{{ asset('../css/welcome.css') }}">
-    <link rel="stylesheet" href="{{ asset('../css/about.css') }}">
-    <link rel="stylesheet" href="{{ asset('../css/whyus.css') }}">
-    <link rel="stylesheet" href="{{ asset('../css/cars.css') }}">
-    <link rel="stylesheet" href="{{ asset('../css/contactus.css') }}">
-    <link rel="stylesheet" href="{{ asset('../css/footer.css') }}">
+    <link rel="stylesheet" href="{{ asset('/css/style.css') }}">
+    <link rel="stylesheet" href="{{ asset('/css/top-section.css') }}">
+    <link rel="stylesheet" href="{{ asset('/css/welcome.css') }}">
+    <link rel="stylesheet" href="{{ asset('/css/about.css') }}">
+    <link rel="stylesheet" href="{{ asset('/css/whyus.css') }}">
+    <link rel="stylesheet" href="{{ asset('/css/cars.css') }}">
+    <link rel="stylesheet" href="{{ asset('/css/contactus.css') }}">
+    <link rel="stylesheet" href="{{ asset('/css/footer.css') }}">
 
-    <link rel="icon" type="image/x-icon" href="{{ asset('../asset/tiphonixlogo.png') }}">
+    <link rel="icon" type="image/x-icon" href="{{ asset('/asset/tiphonixlogo.png') }}">
 
 </head>
 
@@ -41,13 +41,13 @@
             <div class="nav-bar">
                 <i class="fas fa-bars sidebarOpen"></i>
                 <span class="logo navLogo mt-3"><a href="#"><img class="logo"
-                            src="{{ asset('asset/tiphonixlogo.png') }}" height="120" alt="logo"
+                            src="{{ asset('/asset/tiphonixlogo.png') }}" height="120" alt="logo"
                             loading="lazy" /></a></span>
 
                 <div class="menu">
                     <div class="logo-toggle">
                         <span class="logo"><a href="#"><img class="logo"
-                                    src="{{ asset('asset/tiphonixlogo.png') }}" height="100" alt="logo"
+                                    src="{{ asset('/asset/tiphonixlogo.png') }}" height="100" alt="logo"
                                     loading="lazy" /></a></span>
                         <i class='bx bx-x siderbarClose'></i>
                     </div>
@@ -86,7 +86,7 @@
     {{-- top section--}}
     <section class="top_section w-100" id="top-sec">
         <video autoplay loop muted playsinline>
-            <source src="{{ asset('asset/CINEMATIC CAR VIDEO.mp4') }}" type="video/mp4">
+            <source src="{{ asset('/asset/CINEMATIC CAR VIDEO.mp4') }}" type="video/mp4">
         </video>
 
         <div class="center">
