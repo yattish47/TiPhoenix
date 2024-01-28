@@ -1,0 +1,30 @@
+@font-face {
+    font-family: helvetica;
+    src: url(../Asset/fonts/HelveticaNeue-Roman.otf);
+}
+@font-face {
+    font-family: helvetica;
+    src: url(../Asset/fonts/HelveticaNeue-Roman.otf);
+}
+@font-face {
+    font-family: baseNeu;
+    src: url(../Asset/fonts/BaseNeueTrial-ExpandedBlack.ttf);
+  }
+  
+  @font-face {
+    font-family: overglow;
+    src: url(../Asset/fonts/OverglowFont-Demo.otf);
+  }
+.cars{
+    padding: 120px 10% 120px 10%;
+    width: 100vw;
+    background-color: white;
+}
+
+.cars>.title>h1{
+    color: black;
+    font-family: baseNeu;
+    font-size: 3em;
+    text-transform: uppercase;
+}
+
